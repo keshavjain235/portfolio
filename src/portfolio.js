@@ -111,7 +111,7 @@ const educationInfo = {
       duration: '2018 - 2022',
     },
     {
-      schoolName: 'D.C. Montessori Sr. Sec. (SMART) School, Chandigarh',
+      schoolName: 'D C Montessori Sr. Sec. SMART School, Chandigarh',
       logo: require('./assets/images/dcmsLogo.png'),
       subHeader: 'XII',
       duration: '2016 - 2018',
@@ -248,7 +248,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/account/accomplishments/certificate/PY4QTMT9F23R',
+          url: 'https://www.coursera.org/api/certificate.v1/pdf/PY4QTMT9F23R',
         },
       ],
     },
@@ -259,7 +259,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/account/accomplishments/certificate/JBBNKHYQQF2T',
+          url: 'https://www.coursera.org/api/certificate.v1/pdf/JBBNKHYQQF2T',
         },
       ],
     },
@@ -270,7 +270,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/PNV927WDRTKZ',
+          url: 'https://www.coursera.org/api/certificate.v1/pdf/PNV927WDRTKZ',
         },
       ],
     },
