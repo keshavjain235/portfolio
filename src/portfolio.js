@@ -252,7 +252,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/api/certificate.v1/pdf/PY4QTMT9F23R',
+          url: 'https://www.coursera.org/verify/PY4QTMT9F23R',
         },
       ],
     },
@@ -263,7 +263,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/api/certificate.v1/pdf/JBBNKHYQQF2T',
+          url: 'https://www.coursera.org/verify/JBBNKHYQQF2T',
         },
       ],
     },
@@ -274,7 +274,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/api/certificate.v1/pdf/PNV927WDRTKZ',
+          url: 'https://www.coursera.org/verify/PNV927WDRTKZ',
         },
       ],
     },
