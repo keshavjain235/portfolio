@@ -274,7 +274,7 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://www.coursera.org/verify/PNV927WDRTKZ',
+          url: 'https://www.coursera.org/verify/specialization/PNV927WDRTKZ',
         },
       ],
     },
