@@ -64,7 +64,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-js',
     },
     {
-      skillName: 'Bootstrap',
+      skillName: 'Bootstrap-4',
       fontAwesomeClassname: 'fab fa-bootstrap',
     },
     {
@@ -82,6 +82,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'firebase',
       fontAwesomeClassname: 'fas fa-fire',
+    },
+    {
+      skillName: 'mongodb',
+      fontAwesomeClassname: 'fas fa-database',
     },
     {
       skillName: 'C',
