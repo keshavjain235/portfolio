@@ -182,7 +182,7 @@ const bigProjects = {
   projects: [
     {
       image: require('./assets/images/bidlocalLogo.png'),
-      link: 'http://bidlocal.in/',
+      link: 'http://bidlocal.in',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -204,29 +204,26 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Award Letter',
-          url: require('./assets/images/Hack-A-Duck.jpg'),
+          url: 'https://drive.google.com/file/d/1yWbtyFWnVK4cFDiV1G9U53QejUysEm8_/view?usp=sharing',
         },
         {
           name: 'Final Project',
-          url:
-            'https://coding-blasters-charity-web.herokuapp.com/',
+          url: 'https://coding-blasters-charity-web.herokuapp.com',
         },
       ],
     },
     {
       title: 'Top 10, Finalist - API Hacks',
-      subtitle: "API Hacks Hackathon Innovator's Hub X Tech Phantoms, Chandigarh University",
+      subtitle: "API Hacks Hackathon organised by Innovator's Hub X Tech Phantoms, Chandigarh University",
       image: require('./assets/images/apihacks.png'),
       footerLink: [
         {
           name: 'Award Letter',
-          url:
-            'https://drive.google.com/file/d/14iNMiu6dBvxUymmbT_H0ORdIiWFhZMa6/view?usp=sharing',
+          url: 'https://drive.google.com/file/d/1lZyaJpVPeKIDipYbN_TEjRJ9W7_OyA6D/view?usp=sharing',
         },
         {
           name: 'Final Project',
-          url:
-            'https://github.com/keshavjain235/SaavdhanAPI',
+          url: 'https://github.com/keshavjain235/SaavdhanAPI',
         },
       ],
     },
@@ -237,11 +234,26 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Award Letter',
-          url: require('./assets/images/OctaHacks-cert.png'),
+          url: 'https://drive.google.com/file/d/1S3gXm_FBShWkcGHcRXbZ3uo0Oe7VUDEA/view?usp=sharing',
         },
         {
           name: 'Final Project',
-          url: 'https://securitypirates.herokuapp.com/',
+          url: 'https://securitypirates.herokuapp.com',
+        },
+      ],
+    },
+    {
+      title: 'Top 10 - The Python Week',
+      subtitle: "The Python Week Hackathon organized under DevLoop, by Mehsana Developers Club",
+      image: require('./assets/images/thepythonweek.png'),
+      footerLink: [
+        {
+          name: 'Award Letter',
+          url: require('/'),
+        },
+        {
+          name: 'Final Project',
+          url: 'https://flight-fare-predictor.vercel.app',
         },
       ],
     },
