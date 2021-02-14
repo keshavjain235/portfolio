@@ -23,6 +23,7 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/keshavjain235',
   linkedin: 'https://www.linkedin.com/in/keshavjain235',
+  hackerrank: 'https://www.hackerrank.com/keshavjain235',
   gmail: 'keshav.jain2354@gmail.com',
   // gitlab: 'https://gitlab.com/saadpasta',
   // facebook: 'https://www.facebook.com/saad.pasta7',
@@ -249,7 +250,22 @@ const achievementSection = {
       footerLink: [
         {
           name: 'Award Letter',
-          url: require('/'),
+          url: 'https://drive.google.com/file/d/19Bv-AmPnsKeaNDmN_ZlIDdMJRLrXi6TU/view?usp=sharing',
+        },
+        {
+          name: 'Final Project',
+          url: 'https://flight-fare-predictor.vercel.app',
+        },
+      ],
+    },
+    {
+      title: '16th Position - HACKNITP3.0',
+      subtitle: "HACKNITP3.0 Hackathon organized by HackSlash Club, NIT Patna",
+      image: require('./assets/images/hacknitp.png'),
+      footerLink: [
+        {
+          name: 'Award Letter',
+          url: 'https://drive.google.com/file/d/1qbXiQegTUZbQ27wiiBurZnHLF__H4z17/view?usp=sharing',
         },
         {
           name: 'Final Project',
