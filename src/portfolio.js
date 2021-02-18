@@ -157,10 +157,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'ReactJS Intern',
+      role: 'Software Development Intern',
       company: 'SAASPECT',
       companylogo: require('./assets/images/saaspectLogo.png'),
       date: 'January 2021 – Present',
+    },
+    {
+      role: 'Web Development Intern',
+      company: 'The Prodigious People',
+      companylogo: require('./assets/images/tpp.jpg'),
+      date: 'February 2021 – Present',
     },
   ],
 };
@@ -276,7 +282,7 @@ const achievementSection = {
     {
       title: 'Front-End Web Development with React',
       subtitle: 'This course explores Javascript based front-end application development, and in particular the React library.',
-      image: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+      image: require('./assets/images/react.png'),
       footerLink: [
         {
           name: 'Certification',
