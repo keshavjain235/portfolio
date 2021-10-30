@@ -161,21 +161,33 @@ const workExperiences = {
       company: 'The Prodigious People',
       companylogo: require('./assets/images/tpp.webp'),
       date: 'February 2021 – April 2021',
-      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))'
+      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Developed & Revamped Company's Website (theprodigiouspeople.in)",
+        "Worked on a client project - Artist Portfolio (artbykoushik.herokuapp.com)"
+      ]
     },
     {
       role: 'Full Stack Developer - Intern',
       company: 'Dotkonnekt',
-      companylogo: require('./assets/images/logo-dot.png'),
+      companylogo: require('./assets/images/logo-dot.webp'),
       date: 'September 2021 – Present',
-      background: 'linear-gradient(#F5C353, #F5C353)'
+      background: 'linear-gradient(#F5C353, #F5C353)',
+      descBullets: [
+        "Developed Company's Website (dotkonnekt.com)",
+        "Working on client project - Rootless (www.getrootless.com)"
+      ]
     },
     {
       role: 'REACT Frontend Developer - Intern',
       company: '1GEN',
       companylogo: require('./assets/images/logo-1gen.png'),
       date: 'September 2021 – Present',
-      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))'
+      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
+      descBullets: [
+        "Working on a client project - Youth4Planet (api.youth4planet.com)"
+      ]
     },
   ],
 };
@@ -193,12 +205,47 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Projects',
+  subtitle: 'SOME PERSONAL AND CLIENT PROJECTS I WORKED ON',
   projects: [
     {
+      image: require('./assets/images/y4p.webp'),
+      projectName: "Youth4Planet",
+      projectDesc: "Youth4Planet provides a unique action, learning and storytelling concept for the digital world.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://api.youth4planet.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/logo-dot.webp'),
+      projectName: "dotkonnekt",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dotkonnekt.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/rootless.webp'),
+      projectName: "Rootless",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.getrootless.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require('./assets/images/bidlocalLogo.webp'),
-      // link: 'http://bidlocal.in',
       projectName: "BidLocal",
       projectDesc: "Seller Portal for an E-Commerce Website for local shops and consumers",
       footerLink: [
@@ -211,13 +258,48 @@ const bigProjects = {
     },
     {
       image: require('./assets/images/tpplogo.webp'),
-      // link: 'https://theprodigiouspeople.in/',
       projectName: "The Prodigious People",
       projectDesc: "Designing, Branding, Marketing",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://theprodigiouspeople.in/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/covid-19.webp'),
+      projectName: "Covid-19 Tracker",
+      projectDesc: "Covid-19 Tracker built using ReactJS and disease.sh API",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://covid19tracker-kj.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/spotify.webp'),
+      projectName: "Spotify App Clone",
+      projectDesc: "This App shows your spotify data in detail. If you have a Spotify premium account, it can also play songs.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://spotify-clone-kj.web.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/moms.webp'),
+      projectName: "Medical Oxygen Management System",
+      projectDesc: "Management of Oxygen supply between states at Central level Credentials - admin.center@gmail.com / admin@123",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://oxygenmanager.herokuapp.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -312,7 +394,7 @@ const achievementSection = {
     },
     {
       title: 'Front-End Web Development with React',
-      subtitle: 'This course explores Javascript based front-end application development, and in particular the React library.',
+      subtitle: 'Javascript based front-end application development, and in particular the React library.',
       image: require('./assets/images/react.webp'),
       footerLink: [
         {
@@ -324,7 +406,7 @@ const achievementSection = {
     {
       title: 'Front-End Web UI Frameworks and Tools: Bootstrap 4',
       subtitle: 'An overview of client-side web UI frameworks, in particular Bootstrap 4.',
-      image: 'https://www.filepicker.io/api/file/bciJjUAsRzG6UQbCRcVe',
+      image: require('./assets/images/bootstrap.webp'),
       footerLink: [
         {
           name: 'Certification',
@@ -334,8 +416,8 @@ const achievementSection = {
     },
     {
       title: 'Architecting with Google Compute Engine',
-      subtitle: 'In this specialization, learners explored infrastructure components such as networks, systems and applications services using Google Cloud Platform, with a focus on Compute Engine.',
-      image: 'https://www.smartenergydecisions.com/upload/images/company_images/google_cloud.jpg',
+      subtitle: 'Explored infrastructure components such as networks, systems and applications services using Google Cloud Platform, with a focus on Compute Engine.',
+      image: require('./assets/images/googlecloud.webp'),
       footerLink: [
         {
           name: 'Certification',
