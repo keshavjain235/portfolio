@@ -157,36 +157,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Web Developer - Intern',
+      role: 'Associate Software Engineer',
+      company: 'MAQ Software',
+      companylogo: require('./assets/images/logo-maq.png'),
+      date: 'December 2021 - Present',
+      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
+      desc: "Working on New Technologies",
+      descBullets: [
+
+      ]
+    },
+    {
+      role: 'REACT Frontend Developer',
+      company: '1GEN',
+      companylogo: require('./assets/images/logo-1gen.png'),
+      date: 'September 2021 - December 2021',
+      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
+      descBullets: [
+        "Worked on a client project - Youth4Planet (api.youth4planet.com)"
+      ]
+    },
+    {
+      role: 'Full Stack Developer',
+      company: 'Dotkonnekt',
+      companylogo: require('./assets/images/logo-dot.webp'),
+      date: 'September 2021 - December 2021',
+      background: 'linear-gradient(#F5C353, #F5C353)',
+      descBullets: [
+        "Developed Company's Website (dotkonnekt.com)",
+        "Developed Client's Website - Rootless (www.getrootless.com)",
+        "Developed Client's Website - FyndHealth (fyndhealth.com)"
+      ]
+    },
+    {
+      role: 'Web Developer',
       company: 'The Prodigious People',
       companylogo: require('./assets/images/tpp.webp'),
-      date: 'February 2021 – April 2021',
+      date: 'February 2021 - April 2021',
       background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Developed & Revamped Company's Website (theprodigiouspeople.in)",
-        "Worked on a client project - Artist Portfolio (artbykoushik.herokuapp.com)"
-      ]
-    },
-    {
-      role: 'Full Stack Developer - Intern',
-      company: 'Dotkonnekt',
-      companylogo: require('./assets/images/logo-dot.webp'),
-      date: 'September 2021 – Present',
-      background: 'linear-gradient(#F5C353, #F5C353)',
-      descBullets: [
-        "Developed Company's Website (dotkonnekt.com)",
-        "Working on client project - Rootless (www.getrootless.com)"
-      ]
-    },
-    {
-      role: 'REACT Frontend Developer - Intern',
-      company: '1GEN',
-      companylogo: require('./assets/images/logo-1gen.png'),
-      date: 'September 2021 – Present',
-      background: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2))',
-      descBullets: [
-        "Working on a client project - Youth4Planet (api.youth4planet.com)"
+        "Developed Client's Website - Artist Portfolio (artbykoushik.herokuapp.com)"
       ]
     },
   ],
@@ -209,9 +221,21 @@ const bigProjects = {
   subtitle: 'SOME PERSONAL AND CLIENT PROJECTS I WORKED ON',
   projects: [
     {
+      image: require('./assets/images/logo-fyndhealth.png'),
+      projectName: "FyndHealth",
+      projectDesc: "is an integrated hybrid platform for Healthcare, Therapy, Peer Support & Query Management with Progress Monitoring",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://fyndhealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require('./assets/images/y4p.webp'),
       projectName: "Youth4Planet",
-      projectDesc: "Youth4Planet provides a unique action, learning and storytelling concept for the digital world.",
+      projectDesc: "provides a unique action, learning and storytelling concept for the digital world.",
       footerLink: [
         {
           name: "Visit Website",
@@ -283,7 +307,7 @@ const bigProjects = {
     {
       image: require('./assets/images/spotify.webp'),
       projectName: "Spotify App Clone",
-      projectDesc: "This App shows your spotify data in detail. If you have a Spotify premium account, it can also play songs.",
+      projectDesc: "shows your spotify data in detail. If you have a Spotify premium account, it can also play songs.",
       footerLink: [
         {
           name: "Visit Website",
